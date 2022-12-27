@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./pages/index.css">
     <title>Научиться учиться</title>
   </head>
@@ -24,7 +23,7 @@
           class="header__main-illustration"
           src="./images/header-image.png"
           alt="Картинка 'Опять двойка' художника Фёдора Решетникова">
-        <div class="header__square-pic"></div>
+        <div class="header__square-pic rotation"></div>
       </header>
       <main class="content">
         <section aria-label="Проблемы в обучении" class="description">
@@ -111,26 +110,18 @@
         <section class="video">
           <h2 class="section-title">Видео на TED</h2>
           <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
-          <div class="video__iframes">
-            <iframe
+          <ul class="video__iframes">
+            <li><iframe
               class="video__iframe"
-              width="515"
-              height="316"
               src="https://www.youtube.com/embed/5MgBikgcWnY"
-              title="YouTube video player"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
-            ></iframe>
-            <iframe
+            ></iframe></li>
+            <li><iframe
               class="video__iframe"
-              width="515"
-              height="316"
               src="https://www.youtube.com/embed/arj7oStGLkU"
-              title="YouTube video player"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
-            ></iframe>
-          </div>
+            ></iframe></li>
+          </ul>
         </section>
         <section aria-label="История Барбары Оакли." class="oakley">
           <article class="two-columns">
@@ -293,7 +284,7 @@
               </p>
             </li>
           </ul>
-          <div class="kaufman__triangle" title="Треугольник в углу"></div>
+          <div class="kaufman__triangle rotation" title="Треугольник в углу"></div>
         </section>
         <section class="resources">
           <h2 class="section-title">Полезные ресурсы</h2>

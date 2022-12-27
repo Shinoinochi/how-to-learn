@@ -1,7 +1,7 @@
 .footer {
   position: relative;
   display: flex;
-  background-color: #000;
+  background-color: #1f1f1f;
   color: #fff;
   min-height: 350px;
   box-sizing: border-box;
